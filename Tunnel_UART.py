@@ -56,7 +56,7 @@ SELECTION_MODE = JSON_SEND
 
 SAMPLE_PERIOD = 1 #Minutes
 DATA_TOTAL  = 24*60 #24 Hour. 60Minutes per Hour
-LENGTH_FIFO    = 4#DATA_TOTAL*30 #Total Space to save!
+LENGTH_FIFO    = DATA_TOTAL*30 #Total Space to save!
 
 class greenLed():
     """
