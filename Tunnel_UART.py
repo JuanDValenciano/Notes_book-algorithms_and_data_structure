@@ -230,7 +230,7 @@ def main():
                 if(_ok_frame == 1):
                     if(verbose_on):
                         print("> Lenght: ", len(_frameRecv))
-                    _frame2Send = Set_ACK_Config(datetime.datetime.now())
+                    _frame2Send = Set_ACK_Config(datetime.now())
                     JSON_Data2Send  = json.loads(JSON_Data2Send_Format)
                     JSON_Data2Send["idptr"] = str(idptr_Data)
                     JSON_Data2Send["uuid"]  = str(uuid_Data)
